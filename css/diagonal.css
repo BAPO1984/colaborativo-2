@@ -1,0 +1,21 @@
+@-webkit-keyframes movimiento-diagonal {
+   from {
+      left: 0px;
+   }
+   
+   to {
+      left: 45px;
+   }
+}   
+
+#anim {
+   -webkit-animation-name: movimiento-diagonal;
+   -webkit-animation-duration: 3s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-direction: alternate;/*para que vuelva a su posicion inicial */
+   width: 1300px;
+   background-color: orange;
+   color: #fff;
+   position: relative; 
+   padding: 2px;
+}
