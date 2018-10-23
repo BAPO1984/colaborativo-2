@@ -65,6 +65,40 @@ p{
 	text-align: justify;
 	font-size: 20px;
 }
+#autores{
+	float: left;
+	width: 960px;
+	height: 490px;
+	background: #50B748;
+	border-radius: 10px;
+	overflow:  hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.autor{
+	margin: 30px;
+}
+
+.autor h2 {
+	font-size: 38px;	
+	color: #A54686;
+	border: 3px solid #50B748;
+	font-family: arial; 
+
+}
+
+.autor img{
+	 float: left;
+	 margin: 10px;
+}
+.autor p{
+	color: #005883;
+	font-size: 30px;
+	margin-bottom: 35px;
+	margin-top: 25px;
+	font-family: arial;
+}
 
 footer{
 	height: 60px;
