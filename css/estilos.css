@@ -5,7 +5,15 @@
 body{
 	background: #005883;
 }
-#contenedor{
+#contenedor-a{
+	width: 960px;
+	margin: auto;
+	margin-top: 20px; 
+	border-radius: 10px; 
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+#contenedor-b{
 	width: 960px;
 	margin: auto;
 	margin-top: 20px; 
@@ -41,8 +49,20 @@ h1{
 	font-size: 40px;
 	color: #F47920;
 }
-h2,h3,h4{
+h2{
 	color: #50B748;	
+	font-size: 30px;
+}
+h3,h4{
+	color: #50B748;	
+	font-size: 25px;
+}
+span{
+	font-family: 20px;	
+}
+
+p{
+	text-align: justify;
 	font-size: 20px;
 }
 
@@ -53,4 +73,5 @@ footer{
 	clear: both;
 	text-align: center;
 	line-height: 50px;
+
 }
