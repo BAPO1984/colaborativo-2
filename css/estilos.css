@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	background: #005883;
+	background: #F0B429;
 }
 #contenedor-a{
 	width: 960px;
@@ -18,7 +18,7 @@ body{
 #header {
 	margin:auto;
 	width:960px;
-	font-family:Arial, Helvetica, sans-serif;	
+	font-family: "Angsana new, franklin gotic heavy, franklin gotic book";	
 	margin-top: 20px; 
 	border-radius: 10px; 
 	overflow: hidden;
@@ -34,7 +34,7 @@ body{
 	margin-bottom: 20px;
 }
 nav{
-	background: #A54686;
+	background: #005883;
 	height:60px;
 }
 
@@ -48,25 +48,24 @@ nav a{
 	color: #FFFFFF;
 	font-size:  18px;
 	font-weight: bold;
-	font-family: arial;
+	font-family: "Angsana new";
 	text-decoration: none;
 	padding: 20px;
 }
-nav a:hover{
-	background: #CCCCCC;
-	color: #000000;
-}
+
 
 h1{
 	font-size: 40px;
-	color: #F47920;
+	color: #005883;
 }
 h2{
-	color: #50B748;	
+	color: #000;	
 	font-size: 30px;
 }
 h3,h4{
 	color: #50B748;	
+	font-weight: bolder;
+	font-family: "franklin gotic heavy";
 	font-size: 25px;
 }
 span{
@@ -130,7 +129,7 @@ ul, ol {
 			}
 			
 .nav li a {
-				background-color:#000;
+				background-color:;
 				color:#fff;
 				text-decoration:none;
 				padding:0px 12px;
@@ -138,8 +137,9 @@ ul, ol {
 			}
 			
 .nav li a:hover {
-				background-color:#434343;
-
+				background-color:#CCC;
+				color: #000;
+				padding: 0px 20px;
 			}
 			
 .nav li ul {
@@ -150,7 +150,7 @@ ul, ol {
 			
 .nav li:hover > ul {
 				display:block;
-
+				background: #005883;
 			}
 			
 .nav li ul li {
@@ -161,4 +161,3 @@ ul, ol {
 				right:-140px;
 				top:0px;
 			}		
-			
