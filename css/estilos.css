@@ -6,7 +6,7 @@ body{
 	background: #F0B429;
 }
 #contenedor-a{
-	width: 960px;
+	width: 900px;
 	margin: auto;
 	margin-top: 20px; 
 	border-radius: 10px; 
@@ -17,7 +17,7 @@ body{
 
 #header {
 	margin:auto;
-	width:960px;
+	width:900px;
 	font-family: "Angsana new, franklin gotic heavy, franklin gotic book";	
 	margin-top: 20px; 
 	border-radius: 10px; 
@@ -26,7 +26,7 @@ body{
 	}
 
 #contenedor-b{
-	width: 960px;
+	width: 900px;
 	margin: auto;
 	margin-top: 20px; 
 	border-radius: 10px; 
@@ -78,7 +78,7 @@ p{
 }
 #autores{
 	float: left;
-	width: 960px;
+	width: 900px;
 	height: 490px;
 	background: #50B748;
 	border-radius: 10px;
@@ -92,10 +92,10 @@ p{
 }
 
 .autor h2 {
-	font-size: 38px;	
+	font-size: 30px;	
 	color: #A54686;
 	border: 3px solid #50B748;
-	font-family: arial; 
+	font-family: "Angsana new"; 
 
 }
 
@@ -108,7 +108,7 @@ p{
 	font-size: 30px;
 	margin-bottom: 35px;
 	margin-top: 25px;
-	font-family: arial;
+	font-family: franklin gotic book;
 }
 
 footer{
@@ -161,3 +161,26 @@ ul, ol {
 				right:-140px;
 				top:0px;
 			}		
+#principal{/*identificador padre del div contenedor*/
+	height: 650px;
+  width: 200px;
+  border-radius: 5px solid #ddd;  
+  overflow-y: scroll;
+}
+#altura{/*div contenedor del twitter*/
+	height: auto;
+}
+
+aside {/*poition twitter*/
+	background-color: #005883;		
+	float: right; 	 	 
+	margin-top: 10px;
+	border-radius: 10px;
+	position: absolute;	
+	top: 550px;
+	right: 10px;
+}
+aside h3{
+	text-align: center;
+}
+center h4{color: #000}
